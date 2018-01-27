@@ -10,7 +10,7 @@ exports.default = function (urls) {
   var promises = [];
 
   var _loop = function _loop(url) {
-    promises.push(window.fetch(url).catch(function (error) {
+    promises.push(fetch(url).catch(function (error) {
       output[url] = error;
       return undefined;
     }));
