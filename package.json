@@ -1,0 +1,48 @@
+{
+  "name": "fetch-all",
+  "version": "1.0.0",
+  "description": "A utility function to help you fetch multiple different resources in one promise",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "watch 'npm run build' src",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./tests/config.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seancrater/fetch-all.git"
+  },
+  "keywords": [
+    "javascript",
+    "fetch",
+    "promise",
+    "multiple",
+    "requests",
+    "multi"
+  ],
+  "author": "Sean Crater",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seancrater/fetch-all/issues"
+  },
+  "homepage": "https://github.com/seancrater/fetch-all#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^22.1.4",
+    "jest-fetch-mock": "^1.4.1",
+    "watch": "^1.0.2"
+  }
+}
