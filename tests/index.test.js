@@ -1,4 +1,4 @@
-import fetchAll from '../dist';
+import fetchMultiple from '../dist';
 
 const mockUrls = {
   '/data.json': 'json',
@@ -12,7 +12,7 @@ fetch.mockResponses(
   [ new Error('404 Not Found'), { status: 404 } ]
 );
 
-const mockFetch = fetchAll(mockUrls);
+const mockFetch = fetchMultiple(mockUrls);
 
 it('works as a promise', () => {
   expect(mockFetch.resolves);

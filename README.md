@@ -1,4 +1,4 @@
-# fetch-all
+# fetch-multiple
 
 A tiny library created for fetching multiple assets in one promise.
 
@@ -9,14 +9,14 @@ $ npm install fetch-all --save-dev
 ```
 
 ```javascript
-import fetchAll from 'fetch-all';
+import fetchMultiple from 'fetch-multiple';
 
 const fetchables = {
   '/data.json': 'json',
   '/text.txt': 'text'
 };
 
-fetchAll(fetchables)
+fetchMultiple(fetchables)
   .then(data => {
     console.log(data);
   });
@@ -28,7 +28,7 @@ fetchAll(fetchables)
   // }
 ```
 
-The only argument that the `fetchAll` function requires is an object of URLs as keys and values of the desired parsing method.
+The only argument that the `fetchMultiple` function requires is an object of URLs as keys and values of the desired parsing method.
 
 Available parsing methods are based on what the fetch protocol is capable of:
 ```

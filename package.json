@@ -1,11 +1,12 @@
 {
   "name": "fetch-multiple",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A utility function to help you fetch multiple different resources in one promise",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "prepublish": "npm run build",
+    "publish": "np",
     "start": "watch 'npm run build' src",
     "test": "jest",
     "test:watch": "npm test -- --watch"
