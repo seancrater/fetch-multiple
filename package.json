@@ -1,6 +1,6 @@
 {
   "name": "fetch-multiple",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A utility function to help you fetch multiple different resources in one promise",
   "main": "dist/index.js",
   "scripts": {

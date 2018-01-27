@@ -5,7 +5,7 @@ A tiny library created for fetching multiple assets in one promise.
 *Here are some basic instructions to get up and running*
 
 ```shell
-$ npm install fetch-all --save-dev
+$ npm install fetch-multiple --save-dev
 ```
 
 ```javascript
