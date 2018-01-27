@@ -6,7 +6,6 @@
   "scripts": {
     "build": "babel src -d dist",
     "prepublish": "npm run build",
-    "publish": "np",
     "start": "watch 'npm run build' src",
     "test": "jest",
     "test:watch": "npm test -- --watch"
