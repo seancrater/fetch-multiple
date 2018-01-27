@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/seancrater/fetch-all.git"
+    "url": "https://github.com/seancrater/fetch-multiple.git"
   },
   "keywords": [
     "javascript",
@@ -36,9 +36,9 @@
   "author": "Sean Crater",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/seancrater/fetch-all/issues"
+    "url": "https://github.com/seancrater/fetch-multiple/issues"
   },
-  "homepage": "https://github.com/seancrater/fetch-all#readme",
+  "homepage": "https://github.com/seancrater/fetch-multiple#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
