@@ -20,6 +20,9 @@ it('works as a promise', () => {
 
 it('returns the correct values', () => {
   expect(mockFetch.then(data => {
-    console.log(data);
+    return data === {
+      '/data.json': { data: true },
+      'text.txt': 'Some example text'
+    }
   }));
 });
