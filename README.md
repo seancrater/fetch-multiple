@@ -28,7 +28,7 @@ fetchMultiple(fetchables)
   // }
 ```
 
-The only argument that the `fetchMultiple` function requires is an object of URLs as keys and values of the desired parsing method.
+The only argument that the function requires is an object of URLs as keys and values of the desired parsing method.
 
 Available parsing methods are based on what the fetch protocol is capable of:
 ```
@@ -38,3 +38,5 @@ Available parsing methods are based on what the fetch protocol is capable of:
 - json
 - text
 ```
+
+**Please note that this libraries data structure may change as new features are added in newer releases.**
