@@ -39,4 +39,4 @@ Available parsing methods are based on what the fetch protocol is capable of:
 - text
 ```
 
-**Please note that this libraries data structure may change as new features are added in newer releases.**
+**Please note that this library's data structure may change as new features are added in newer releases.**
